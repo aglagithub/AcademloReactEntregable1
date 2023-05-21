@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>Entregable1</h1>
+      <h1>Entregable1. En Construcción</h1>
     </>
   )
 }
