@@ -15,9 +15,9 @@ function App() {
   }
 
   const changeBkImage = () => {
-    setbgImage(getRandom(bgImages)) //Nota podria mas bien incluirse en la función anteriro evitando enviar otra función
+    setbgImage(getRandom(bgImages)) //Nota podria más bien incluirse en la función anteriro evitando enviar otra función
   }
-  // console.log(getRandomQuote(dbQuotes))
+  //console.log(getRandomQuote(dbQuotes))
   //console.log(JSON.stringify(quote))
   //console.log(quote.phrase)
   //console.log(quote.author)
