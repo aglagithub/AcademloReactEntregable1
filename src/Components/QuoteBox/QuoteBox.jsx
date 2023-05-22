@@ -1,11 +1,11 @@
+import './QuoteBox.css'
 
-
-const QuoteBox = ({phrase,changeQuoteBox}) => {
+const QuoteBox = ({phrase,changeQuoteBox,changeBkImage}) => {
     return (
     <>
-    <section>
-        <button onClick={changeQuoteBox}>Try your luck!</button>
-        <article>
+    <section className="quoteBox">
+        <button className="quoteBox__btn" onClick={()=>{changeQuoteBox();changeBkImage() } } >Try your luck!</button>
+        <article className="quoteBox__phrase">
             <p>{phrase}</p>
         </article>
     </section>
